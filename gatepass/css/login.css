@@ -1,0 +1,92 @@
+body{
+	overflow-x: hidden;
+	overflow-y: hidden;
+  background: linear-gradient(to right, #80d8ff  0%, white 100%);
+}
+
+.nav *{
+  display: inline;
+}
+.nav{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 10%;
+  background-color:#00b0ff;
+  position: fixed;
+  top:0;
+  left:0;
+}
+.nav .logo{
+
+}
+.nav .logo img {
+      height:100%;
+      width:20%;  
+}
+.nav h1{
+ margin-left:-300%; 
+  color:#fff;
+  font-size:2.8vw;
+}
+.nav li{
+  position:fixed; 
+  font-size:1.5vw;
+  color:#ffffff;
+  margin:0.9% 0% 0% 10%; 
+  
+}
+.nav li a{
+  text-decoration: none;
+  color: #eeff41;
+  font-family: "";
+
+}
+.left img{
+  width:30%;
+  height:60%; 
+  margin:10% 0% 0% 10%; 
+  border-color:linear-gradient(to left, #70d7ff 0%, white 100%);
+}
+.login{
+ 
+  margin:-30% 0% 0% 60%; 
+  padding:5% ;
+  width:25%;
+  border-radius:5%;
+  border-style: groove; 
+  border-color:#D5DBDB;
+  background: linear-gradient(to right, #80d8ff 0%, white 100%);
+}
+.login h2{
+  font-size:3vw;
+  margin:-10% -10% 0% 30%;  
+}
+
+.login input{
+  width:80%;
+  height: 45px;
+  margin: 5% 20% 0% 8%;
+  font-family: "Franklin Gothic";
+  border-radius:5px;
+  border-style: groove;
+}
+.login select{
+  width:80%;
+  height: 45px;
+  margin: 5% 20% 0% 8%;
+  font-family: "Franklin Gothic";
+  border-radius:5px;
+  border-style: groove;
+}
+.button{
+   width:80%;
+  height: 45px;
+  margin: 5% 20% 0% 8%;
+  font-family: "Franklin Gothic";
+  font-size: 1vw;
+  border-radius:5px;
+  border-style: groove;
+  border-color:#D5DBDB;
+  background-color:#00b0ff; 
+}

@@ -1,0 +1,152 @@
+body{
+	background: linear-gradient(to right, #99ffcc 0%, white 100%);	
+	font-family: "Franklin Gothic";
+	overflow:hidden; 
+}
+.nav *{
+	display: inline;
+}
+.nav{
+	display: flex;
+	align-items: center;
+	width:100%;
+	height:85px;
+	background-color:#28B463;
+	position: fixed;
+	top:0;
+	left:0;
+	font-family: "Franklin Gothic";
+	box-shadow: 0px 1px 8px #82E0AA; 
+}
+.aitamlogo{
+	height:85px;
+	width:200px;  
+	margin:4px 0px 0px 0px; 
+}
+.nav h1{
+	margin-left:100px;
+	margin-right:-15px;
+	color:#fff;
+	font-size:3vw;
+	  
+}
+.nav li{
+	align-items:center;
+	padding:0px;  
+	margin-left:10px;
+	margin-top: -240px;
+}
+.nav li a{
+	text-decoration:none;
+	color:#fff; 
+	text-align: center;
+	padding:-20px;
+	font-size:20px;
+	margin-left:39px; 
+	} 
+.nav ul a:hover{
+	color:  #fff111;
+}
+.menu{
+	position:relative;
+	margin-top:-5px;
+}
+.hover{
+	margin-left: 101px;
+
+}
+.h1{
+	color: #FFF;
+	margin-top: 130px;
+	border-radius: 15px 50px 30px;
+	background:linear-gradient(to right, green 0%, #fff 100%);;
+	width: 23%;
+	font-family: "Franklin Gothic";
+}
+
+.main{
+	height: 500px;
+	width: 850px;
+	margin-top: 50px;
+}
+.bar{
+	height: 80px;
+	width: 850px;
+	border-radius: 15px 50px 30px;
+	background: linear-gradient(to right, green 0%, #fff 100%);
+	color: white;
+	font-family: "Franklin Gothic";
+}
+.h2{
+	margin-bottom: 30px;
+	font-size: 40px;
+	margin-left: 0px;
+	position: relative;
+	top: 18px;
+}
+.card{
+	background-color: white;
+	height: 200px;
+	width: 200px;
+}
+#card1{
+	margin-left: -550px;
+	margin-top: 100px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 0px black;
+	font-size: 25px;
+
+}
+#card2{
+    margin-left: -30px;
+	margin-top: -235px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 0px black;
+	font-size: 25px;
+}
+#card3{
+	margin-left: 500px;
+	margin-top: -235px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 0px black;
+	font-size: 25px;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  float:right;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top:0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  margin-top:-10px; 
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}

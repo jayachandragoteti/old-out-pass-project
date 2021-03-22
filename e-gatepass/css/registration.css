@@ -1,0 +1,38 @@
+body{
+  background: linear-gradient(to right, #80d8ff  0%, white 100%);
+}
+.sitename{
+	margin-left:5%;
+}
+.list li {
+  margin-left:30%;
+}
+#white{
+  color:white;
+}
+.logo{
+  height:50px;
+  left: 0px;
+  width:200px; 
+}
+.registration{
+	padding:10%;
+	margin:0% 0% 0% 25%; 
+}
+.registration h1{
+	font-size:3vw; 
+  
+}
+.registration input{
+width:20%;
+height:5%;  
+border-radius:2%;
+border-style: groove;
+}
+.registration button{
+width:20%;
+height:5%;  
+border-radius:2%;
+border-style: groove;
+background-color:#99A3A4;
+}

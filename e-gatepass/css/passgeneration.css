@@ -1,0 +1,82 @@
+body{
+
+  background: linear-gradient(to right, #80d8ff  0%, white 100%);
+}
+.sitename{
+  margin-left:5%;
+}
+.list li {
+  margin-left:50%;
+}
+#white{
+  color:white;
+}
+.logo{
+  height:50px;
+  left: 0px;
+  width:200px; 
+}
+.form{
+  margin-top:3%;
+}
+.form{
+  padding:3%; 
+  width:40%;
+  border-radius:5%;
+  border-style:groove; 
+  
+ } 
+.table td{
+  padding:1.5%; 
+  font-family:"Century Gothic" ;
+}
+#next{
+  margin-top:10% ;
+  position:5%; 
+  width:50%;
+  height:40%;
+  background-color:#99A3A4;
+  color: #e6ffff;
+
+  font-family: "Century Gothic";
+  border-style:groove;
+  border-radius:5%; 
+}
+#submit{
+  margin-top:10% ;
+  position:5%; 
+  width:50%;
+  height:40%;
+  background-color:#99A3A4;
+  color: #e6ffff;
+ 
+  font-family: "Century Gothic";
+  border-style:groove;
+  border-radius:5%;
+}
+.table input{
+  box-sizing: border-box;
+    border: none;
+    border-bottom: 2% solid #99A3A4;
+    background-color:#fff ;
+    
+}
+#branch{
+  width:105%;
+  box-sizing: border-box;
+  border:none;
+  border-bottom: 2% solid #99A3A4;
+ }
+#show{
+  height:-15%; 
+  margin-top:-10%; 
+ 
+}
+#show table{
+  margin-top:20%;
+  
+}
+
+li a.active{
+  color: #fff111;
+} 

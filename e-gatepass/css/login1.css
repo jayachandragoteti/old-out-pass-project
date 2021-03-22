@@ -1,0 +1,20 @@
+body{
+	background: linear-gradient(to left, #B4B8BB  0%, white 70%);
+}
+.sitename{
+  margin-left:0%;
+}
+.list li {
+	margin-left:0%;
+}
+#white{
+	color:white;
+}
+.logo{
+	height:50px;
+	left:0px;
+	width:200px; 
+}
+.loginbackground{
+background: linear-gradient(to left, #B4B8BB  0%, white 70%);
+}
